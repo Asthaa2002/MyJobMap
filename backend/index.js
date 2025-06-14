@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:' https://my-job-map.vercel.app',
+    origin:'https://my-job-map-asthaa2002s-projects.vercel.app/',
     credentials:true
 }
 
